@@ -29,6 +29,7 @@ date'''
       steps {
         echo 'deploy'
         sleep 13
+        sh 'pwd'
       }
     }
 
